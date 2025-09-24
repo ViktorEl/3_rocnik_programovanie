@@ -14,6 +14,8 @@ farba = 14
 obsah = sirka * dlzka
 pocet_plechoviek = obsah / farba
 pocet_plechoviek = math.ceil(pocet_plechoviek)  # math.ceil() zaokruhlenie hore napríklad cislo 3.2 zaokruhli na 4
+# viacslovne premenne zapisat cez podciarkovnik
+# napriklad pocet_plechoviek, spotreba_auta, a pod. 
 
 print(pocet_plechoviek)
 
